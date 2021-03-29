@@ -387,6 +387,50 @@ footer{
   padding-bottom: var(--padding-bottom);
 }
 
+/* Component styles of Getting Started  */
+.Installation-Component {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 60px 8fr;
+  grid-template-columns: 1.5fr 8fr;
+  grid-template-areas:
+    "nav nav "
+    "aside contentGuide ";
+}
+
+.contentGuide {
+  grid-area: contentGuide;
+  height: 90vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1.3fr 8fr;
+  grid-template-areas: 
+  " . aguide"
+  " . bguide"
+
+  ;
+}
+
+.aguide {
+  grid-area: aguide;
+}
+.bguide{
+  grid-area:bguide;
+}
+.guide-lists {
+  /* padding-top: var(--padding-top-component-intro);
+
+  margin-top: var(--margin-top-component);
+  padding-bottom: 2rem;
+  border: 1px solid #dadde1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; */
+}
+
 /* Button component Styles */
 
 .Button-Component {
