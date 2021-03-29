@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modals</title>
+    <link rel="shortcut icon" type="image/jpg" href="../images/logo.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="Modals-Component">
+      <!-- header section -->
+
+      <!-- navbar  -->
+
+      <nav class="navBar">
+        <div class="brand">
+          <a href="../index.html">
+            <img id="logo" src="../images/logo.png" />
+          </a>
+        </div>
+
+        <div class="navLinks">
+          <a href="./index.html"> Home </a>
+
+          <a href="./gettingStarted.html"> Docs </a>
+          <a href="https://github.com/mukulsaini-dev/Component-Library/"> GitHub </a>
+        </div>
+      </nav>
+
+      <!-- aside  Components List -->
+
+      <aside class="aside">
+        <div class="menu-lists">
+          <div class="brandIntro">
+            <a href="" class="brandName">Ghost UI</a>
+            <a href="###" id="version">v1.00</a>
+            <span id="horizontalLine"></span>
+          </div>
+          <ul class="side-lists">
+            <a href="./gettingStarted.html">Getting Started</a>
+
+            <a href="../components/avatar.html">Avatars</a>
+            <a href="../components/alert.html">Alerts</a>
+            <a href="./badges.html">Badges </a>
+            <a href="../components/button.html"> Buttons</a>
+            <a href="./cards.html">Cards</a>
+            <a href="./image.html">Images</a>
+            <a href="./input.html">Inputs</a>
+            <a href="./list.html">Lists</a>
+            <a href="./modals.html">Modals</a>
+            <a href="./navigation.html">Navigation</a>
+            <a href="./grid.html">Simple Grid</a>
+            <a href="./typography.html">Text Utilities</a>
+          </ul>
+
+          <section class="componentFooter">
+            <div>
+              <span class="name"> Made with ❤️ by <b> Mukul Saini </b></span>
+
+              <div class="socialLinks-side">
+                <a href="https://github.com/mukulsaini-dev/Component-Library">
+                  <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://twitter.com/iMukulSaini">
+                  <i class="fab fa-twitter"> </i
+                ></a>
+                <a href="https://www.linkedin.com/in/mukul-saini-95aa49204/"
+                  ><i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </aside>
+
+      <section class="contentModal">
+        <!-- //first grid -->
+
+        <div class="amodal modal-content">
+          <div class="component-intro">
+            <h1 class="component-name">Modals</h1>
+
+            <p class="component-about">
+              The modal provides a solid basis for generating dialogues,
+              pop-ups, lightboxes or something. Below is the example of show and
+              Delete Modal.
+            </p>
+          </div>
+
+          <div class="modal-lists">
+            <div class="show-modal">
+              <h3 class="modal-head">Modal Header</h3>
+              <button class="btn show-modal-btn">Show</button>
+            </div>
+
+            <div class="hide-modal">
+              <h3 class="modal-head">Modals Header</h3>
+              <p class="modal-info">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat
+              </p>
+              <button class="hide-modal-btn">x</button>
+            </div>
+          </div>
+
+          <!-- code snippet -->
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2831%2C138%2C210%2C1%29&t=base16-dark&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=64px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=185%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522show-modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522%2520modal-head%2520%2522%253EModal%2520Header%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520btn%2520show-modal-btn%2522%253E%2520Show%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide-modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522modal-head%2520%2522%253EModal%2520Header%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-info%2522%253E%2522Lorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit%252C%2520sed%2520do%2520eiusmod%2520tempor%2520incididunt%2520ut%2520labore%2520et%2520dolore%2520magna%2520aliqua.%2520Ut%2520enim%2520ad%2520minim%2520veniam%252C%2520quis%2520nostrud%2520exercitation%2520ullamco%2520laboris%2520nisi%2520ut%2520aliquip%2520ex%2520ea%2520commodo%2520consequat%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520hide-modal-btn%2522%253E%2520x%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="
+                width: 724px;
+                height: 407px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <div class="component-next-page">
+            <a href="./button.html" class="previous-page-name"> Buttons </a>
+            <a class="next-page-name" href="./image.html"> Images </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
