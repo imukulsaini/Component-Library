@@ -231,7 +231,7 @@ footer{
   padding-left: 3rem;
   color: rgba(0, 0, 0, 0.87);
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   letter-spacing: 1px;
 }
 
@@ -265,7 +265,6 @@ footer{
 
 .Alert-Component {
   width: 100%;
-
   display: grid;
 
   grid-template-rows: 60px 8fr;
@@ -279,8 +278,11 @@ footer{
 
 .contentAlert {
   height: 90vh;
+
   overflow-y: scroll;
+  
   scrollbar-width: none;
+  
   grid-area: contentAlert;
 
   width: 80%;
@@ -478,6 +480,13 @@ footer{
   height: 3rem;
   font-size: 1.2rem;
   letter-spacing: 1px;
+
+}
+.btn:hover{
+  border: 1px solid;
+  box-shadow: 1px 3px 5px 1px #888888;
+  cursor: pointer;
+
 }
 
 .btn-primary {
@@ -703,8 +712,6 @@ footer{
 }
 .login-btn {
   align-self: center;
-}
-.btn {
   color: white;
   border-radius: 10%;
   border: none;
@@ -712,6 +719,14 @@ footer{
   font-size: 1rem;
   width: 6.5rem;
 }
+/* .btn {
+  color: white;
+  border-radius: 10%;
+  border: none;
+  background-color: var(--primary-color);
+  font-size: 1rem;
+  width: 6.5rem;
+} */
 .radio-input {
   display: flex;
   /* flex-direction: column; */
@@ -719,14 +734,20 @@ footer{
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
+.radio-input-type:hover{
+  cursor: pointer;
 
+}
 .checked-input {
   display: flex;
   gap: 1.1rem;
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
+.check-input-type:hover{
+  cursor: pointer;
 
+}
 /* typography Component styles */
 
 .Typography-Component {
